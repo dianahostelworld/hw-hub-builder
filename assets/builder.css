@@ -1,0 +1,35 @@
+.hw-builder__card{background:#fff;border:1px solid #DDE0E5;border-radius:8px;padding:6px 20px 14px;margin:16px 0;max-width:1100px;}
+.hw-builder__actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap;}
+.hw-builder__progress{font-weight:600;}
+.hw-builder__table{margin-top:8px;}
+.hw-builder__table td{vertical-align:top;}
+.hw-builder__table th:nth-child(1){width:40px;}
+.hw-builder__table th:nth-child(2){width:130px;}
+.hw-builder__table th:nth-child(4){width:26%;}
+.hw-builder__table th:nth-child(5){width:26%;}
+.hw-photo img{display:block;width:120px;height:80px;object-fit:cover;border-radius:4px;}
+.hw-photo small{color:#636C7D;}
+.hw-nophoto{display:flex;align-items:center;justify-content:center;width:120px;height:80px;background:#F1F2F4;border-radius:4px;color:#636C7D;font-size:12px;}
+.hw-muted{color:#636C7D;font-size:12px;}
+.hw-seo__title{color:#1a0dab;font-size:14px;line-height:1.3;}
+.hw-seo__meta{color:#4d5156;font-size:12px;line-height:1.4;margin-top:2px;}
+.hw-checks div{font-size:12px;line-height:1.4;margin-bottom:3px;}
+.hw-ok{color:#18794e;}
+.hw-warn{color:#9a5b00;}
+.hw-err{color:#b32d2e;}
+.hw-row--err{background:#fcf0f1!important;}
+.hw-row--done{background:#edfaef!important;}
+.hw-edit td,.hw-new-form td{background:#F6F7F7;border-top:0;}
+.hw-form{padding:6px 4px 2px;}
+.hw-form__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px 14px;margin-bottom:10px;}
+.hw-form__grid--wide{grid-template-columns:1fr 2fr;}
+.hw-form label{display:flex;flex-direction:column;gap:3px;font-weight:600;font-size:12px;}
+.hw-form input[type=text],.hw-form select,.hw-form textarea{width:100%;font-weight:400;}
+.hw-form small{font-weight:400;color:#636C7D;}
+.hw-form__msg{margin-left:8px;}
+.hw-count{font-weight:400;margin-left:6px;}
+.hw-status .button-small{margin-top:4px;}
+.hw-status .button-link{margin-left:6px;color:#b32d2e;}
+.hw-content{margin-top:2px;}
+.hw-row--gap{background:#fff8e5!important;}
+.hw-builder__force{display:inline-flex;align-items:center;gap:6px;font-weight:600;}
